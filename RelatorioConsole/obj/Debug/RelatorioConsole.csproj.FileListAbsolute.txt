@@ -1,0 +1,17 @@
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\RelatorioConsole.exe.config
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\RelatorioConsole.exe
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\RelatorioConsole.pdb
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.Core.dll
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.dll
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\itextsharp.dll
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.pdb
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.xml
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.Core.pdb
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\Common.Logging.Core.xml
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\bin\Debug\itextsharp.xml
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\obj\Debug\RelatorioConsole.csproj.CoreCompileInputs.cache
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\obj\Debug\RelatorioConsole.exe
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\obj\Debug\RelatorioConsole.pdb
+C:\Users\carrefour\source\repos\Paginacao\RelatorioConsole\obj\Debug\RelatorioConsole.csprojResolveAssemblyReference.cache

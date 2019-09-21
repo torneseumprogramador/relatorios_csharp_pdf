@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paginacao", "Paginacao\Paginacao.csproj", "{7A2BBC8C-845A-4FD5-BE37-6675461DBD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelatorioConsole", "RelatorioConsole\RelatorioConsole.csproj", "{D2F51AFD-8634-45C7-8DA5-B0ABD3F3F471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPDF", "WinPDF\WinPDF.csproj", "{22FDCCC5-3AAC-4664-B6D2-5F0A5E89E239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormPDF", "WebFormPDF\WebFormPDF.csproj", "{16017DAF-2B53-44BE-9A4A-681D3A201FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2BBC8C-845A-4FD5-BE37-6675461DBD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2BBC8C-845A-4FD5-BE37-6675461DBD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2BBC8C-845A-4FD5-BE37-6675461DBD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2BBC8C-845A-4FD5-BE37-6675461DBD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F51AFD-8634-45C7-8DA5-B0ABD3F3F471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F51AFD-8634-45C7-8DA5-B0ABD3F3F471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F51AFD-8634-45C7-8DA5-B0ABD3F3F471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F51AFD-8634-45C7-8DA5-B0ABD3F3F471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FDCCC5-3AAC-4664-B6D2-5F0A5E89E239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FDCCC5-3AAC-4664-B6D2-5F0A5E89E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FDCCC5-3AAC-4664-B6D2-5F0A5E89E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FDCCC5-3AAC-4664-B6D2-5F0A5E89E239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16017DAF-2B53-44BE-9A4A-681D3A201FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16017DAF-2B53-44BE-9A4A-681D3A201FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16017DAF-2B53-44BE-9A4A-681D3A201FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16017DAF-2B53-44BE-9A4A-681D3A201FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F55FA564-DABE-4711-8712-333B16E2E184}
+	EndGlobalSection
+EndGlobal

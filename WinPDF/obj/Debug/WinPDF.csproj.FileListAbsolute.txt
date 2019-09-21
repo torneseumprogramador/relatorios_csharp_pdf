@@ -1,0 +1,12 @@
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\bin\Debug\WinPDF.exe.config
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\bin\Debug\WinPDF.exe
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\bin\Debug\WinPDF.pdb
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\bin\Debug\itextsharp.dll
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\bin\Debug\itextsharp.xml
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.csprojResolveAssemblyReference.cache
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.Form1.resources
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.Properties.Resources.resources
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.csproj.GenerateResource.Cache
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.csproj.CoreCompileInputs.cache
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.exe
+C:\Users\carrefour\source\repos\Paginacao\WinPDF\obj\Debug\WinPDF.pdb

@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Paginçao</h1>
+    <p class="lead">Aula sobre paginacao</p>
+</div>
+
+<a href="/gerar-pdf" class="btn btn-default">Gerar PDF</a>
+
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cliente in ViewBag.clientes)
+            {
+                <tr>
+                    <td>@cliente.ID</td>
+                    <td>@cliente.Nome</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example">
+        @{
+            var totalPaginas = (ViewBag.totalRegistros / ViewBag.porPagina);
+            var total = totalPaginas * ViewBag.porPagina;
+            if (ViewBag.totalPaginas > total)
+            {
+                totalPaginas = totalPaginas + 1;
+            }
+            var totalDisplay = totalPaginas > 3 ? (3 + (ViewBag.paginaCorrente - 1)) : totalPaginas;
+
+        }
+        <div style="float:left; margin-top:20px">
+            @if (ViewBag.paginaCorrente == 1)
+            {
+                <label class="control-label">Exibindo de @ViewBag.paginaCorrente até @(ViewBag.paginaCorrente * ViewBag.porPagina) </label>
+            }
+            else
+            {
+                <label class="control-label">Exibindo de @((ViewBag.paginaCorrente - 1) * ViewBag.porPagina + 1) até @((ViewBag.paginaCorrente) * ViewBag.porPagina) </label>
+            }
+            <label class="control-label">de @ViewBag.totalRegistros registros </label>
+        </div>
+
+        <div style="float:right; margin-top:-12px; font-size:13px">
+            <ul class="pagination">
+                @if (ViewBag.paginaCorrente > 1)
+                {
+                    <li class="page-item"><a class="page-link" href="@Paginacao.Models.Helpers.QueryStringToParams(1, Request)">Primeiro</a></li>
+                }
+                @if (ViewBag.paginaCorrente > 1)
+                {
+                    <li class="page-item"><a class="page-link glyphicon glyphicon-chevron-left" href="@Paginacao.Models.Helpers.QueryStringToParams((ViewBag.paginaCorrente - 1), Request)" style="margin-top:-1px"></a></li>
+                }
+
+                @if (ViewBag.paginaCorrente <= totalPaginas && ViewBag.paginaCorrente > 1)
+                {
+                    <li class="page-item"><a class="page-link" href='@Paginacao.Models.Helpers.QueryStringToParams((ViewBag.paginaCorrente - 1), Request)'>@(ViewBag.paginaCorrente - 1)</a></li>
+                }
+
+                <li class="page-item active"><a class="page-link" href="#">@(ViewBag.paginaCorrente)</a></li>
+
+                @if (ViewBag.paginaCorrente < totalPaginas)
+                {
+                    <li class="page-item"><a class="page-link" href="@Paginacao.Models.Helpers.QueryStringToParams((ViewBag.paginaCorrente + 1), Request)">@(ViewBag.paginaCorrente + 1)</a></li>
+                }
+
+                @if ((ViewBag.paginaCorrente + 2) <= totalPaginas)
+                {
+                    <li class="page-item"><a class="page-link glyphicon glyphicon-chevron-right" href="@Paginacao.Models.Helpers.QueryStringToParams((ViewBag.paginaCorrente + 2), Request)" style="margin-top:-1px"></a></li>
+                }
+                @if ((ViewBag.paginaCorrente + 2) <= totalPaginas)
+                {
+                    <li class="page-item"><a class="page-link" href="@Paginacao.Models.Helpers.QueryStringToParams(totalPaginas, Request)">Último</a></li>
+                }
+                @if (totalPaginas > ViewBag.porPagina)
+                {
+                    <li class="page-item"><a class="page-link" href="?pagina=0">Todos</a></li>
+                }
+            </ul>
+        </div>
+    </nav>
+</div>
